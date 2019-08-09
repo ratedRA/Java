@@ -19,7 +19,7 @@ public class Main {
         baseballTeam.addPlayer(baseball);
         footballTeam.addPlayer(football);
 
-        footballTeam.matchResult(footballTeam2, 1, 5);
+        footballTeam.matchResult(footballTeam2, 5, 1);
         India.matchResult(Australia,5,2);
 
         System.out.println("ranking of "+footballTeam.getName()+" "+footballTeam.ranking());
@@ -27,5 +27,12 @@ public class Main {
 
         System.out.println("Number of players in India "+India.numOfPlayers());
         System.out.println(India.compareTo(Australia));
+
+        League<Team<SoccerPlayer>> footBallleague = new League<>("World cup");
+        footBallleague.addLeague(footballTeam);
+        footBallleague.addLeague(footballTeam2);
+        System.out.println(footBallleague.getName());
+        footBallleague.showTable();
+
     }
 }
