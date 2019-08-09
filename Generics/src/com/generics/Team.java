@@ -4,7 +4,7 @@ import javax.swing.plaf.TableHeaderUI;
 import java.security.spec.RSAOtherPrimeInfo;
 import java.util.ArrayList;
 
-public class Team<T> {
+public class Team<T> implements Comparable<Team<T>>{
     private String name;
     private int won = 0;
     private int lost = 0;
@@ -35,7 +35,7 @@ public class Team<T> {
         return this.players.size();
     }
 
-    public void matchResult(Team Oponent, int ourScore, int theirScore){
+    public void matchResult(Team<T> Oponent, int ourScore, int theirScore){
         if (ourScore>theirScore){
             this.won+=1;
             System.out.println("won against "+Oponent.getName());
@@ -54,7 +54,20 @@ public class Team<T> {
             //System.out.println(Oponent.played);
         }
     }
-    public int raking(){
+    public int ranking(){
         return (this.won*2)+tied;
+    }
+
+    @Override
+    public int compareTo(Team<T> tTeam) {
+        if(this.ranking() > tTeam.ranking()){
+            return 1;
+        }
+        else if(this.ranking()<tTeam.ranking()){
+            return -1;
+        }
+        else{
+            return 0;
+        }
     }
 }
