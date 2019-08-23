@@ -1,0 +1,5 @@
+com/model/MergeSort.class
+com/model/QuickSort.class
+com/controller/SorterName.class
+com/controller/SortController.class
+com/model/BubbleSort.class
