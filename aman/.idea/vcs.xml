@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="" />
+    <mapping directory="$PROJECT_DIR$/../boss-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../identity-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../inventory-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../message-center" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../shared-database" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../shared-lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../shared-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../shared-util" vcs="Git" />
+  </component>
+</project>

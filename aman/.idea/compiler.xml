@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="inventory-service" />
+        <module name="mc" />
+        <module name="identity-service" />
+        <module name="boss-service" />
+        <module name="shared-util" />
+        <module name="shared-service" />
+        <module name="shared-database" />
+        <module name="shared-lib" />
+        <module name="aman" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
