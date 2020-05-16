@@ -78,7 +78,7 @@ Thread myRunnableThreadWithLambda = new Thread(() -> System.out.println("hello f
         myRunnableThreadWithLambda.start();
 ```
 
-### setting the name of the thre
+### setting the name of the thread
 we can set the name of the thread using 
 **setName("thread_name")** method of thread
 
