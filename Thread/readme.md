@@ -1,7 +1,7 @@
 # Java Threads
 ## Introduction
 ### process
-- Each JVM runs its own process and has its own **heap** memoty.
+- Each JVM runs its own process and has its own **heap** memory.
 - no two java process can share the memory space.
 - processes are the single unit of execution.
 
@@ -11,7 +11,7 @@
 
 ## Creating Thread
 
-1. By extending the Thread Class and using the insatnce of it. We can also override the run method. 
+1. By extending the Thread Class and using the instance of it. We can also override the run method. 
 	
 	```
 	public static void main(String[] args) {
